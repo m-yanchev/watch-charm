@@ -1,6 +1,16 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-  letter-spacing: 0.02em;
+  font-family: 'Gilroy', sans-serif;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
