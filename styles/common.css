@@ -1,11 +1,17 @@
-body {
-  font-family: "Gilroy", sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-p,
 h1,
 h2,
 h3 {
+  margin: 0px;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
   margin: 0;
 }
 
@@ -22,25 +28,30 @@ img {
   height: auto;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+}
+
 .container {
   max-width: 375px;
   margin: 0 auto;
-  padding-left: 20px;
   padding-right: 20px;
-  margin: 0 auto;
+  padding-left: 20px;
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0px 32px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
 }
 
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding: 0px 65px;
-
+    padding-right: 65px;
+    padding-left: 65px;
   }
 }
