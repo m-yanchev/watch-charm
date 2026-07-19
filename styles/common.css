@@ -1,5 +1,5 @@
 body {
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
 }
 
 p,
@@ -9,8 +9,38 @@ h3 {
   margin: 0;
 }
 
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0px 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0px 65px;
+
+  }
 }
