@@ -1,12 +1,11 @@
-body {
-  font-family: "Gilroy", sans-serif;
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
-p,
-h1,
-h2,
-h3 {
+body {
+  font-family: "Gilroy", sans-serif;
   margin: 0;
 }
 
@@ -14,6 +13,15 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
 }
 
 .container {
